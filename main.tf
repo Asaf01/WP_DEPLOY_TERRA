@@ -35,7 +35,7 @@ resource "aws_db_instance" "rds_master" {
   identifier              = "master-rds-instance"
   allocated_storage       = 10
   engine                  = "mysql"
-  engine_version          = "5.7.37"
+  engine_version          = "5.7.44"
   instance_class          = "db.t3.micro"
   db_name                 = var.db_name
   username                = var.db_user
